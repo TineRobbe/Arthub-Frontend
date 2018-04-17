@@ -16,4 +16,11 @@ module ApplicationHelper
     end.join('<br />').html_safe
   end
 
+  def render_thumbnail(document, options)
+    unless document.nil?
+        representation_pid = document.fetch(:representation_pid)
+        image_tag("#{representation_pid}")
+    end  
+  end
+
 end

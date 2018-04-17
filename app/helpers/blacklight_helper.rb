@@ -28,6 +28,13 @@ module BlacklightHelper
     end
   end
 
+  def render_image(document=@document, options ={})
+    unless document.nil?
+        representation_pid = document.fetch(:representation_pid)
+        image_tag("#{representation_pid}")
+    end
+  end
+
   def render_technical_details(document=@document, options = {})
     return if document.nil?    
     @technical_details = []

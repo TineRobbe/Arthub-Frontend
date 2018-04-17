@@ -23,4 +23,10 @@
 		background-color: $color2;
 		border: 1px solid $color2;
 	}
+	.document-thumbnail {
+		width:200px;
+		img {
+			width:200px;
+		}
+	}
 }

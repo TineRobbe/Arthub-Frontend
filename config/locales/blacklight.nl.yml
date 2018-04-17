@@ -232,6 +232,7 @@ nl:
         description: 'Beschrijving'
         work_pid: 'Work PID'
         data_pid: 'Data PID'
+        representation_pid: 'Representation PID'
         production_date: 'Datering'
         object_number: 'Inventarisnummer'
         references: 'Referenties'

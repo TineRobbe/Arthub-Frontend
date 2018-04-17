@@ -44,6 +44,8 @@ class CatalogController < ApplicationController
     config.index.display_type_field = 'repository'
     #config.show.display_type_field = 'format'
 
+    config.index.thumbnail_method = :render_thumbnail
+
     # solr fields that will be treated as facets by the blacklight application
     #   The ordering of the field names is the order of the display
     #
