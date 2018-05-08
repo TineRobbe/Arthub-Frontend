@@ -229,6 +229,7 @@
          object_number,
          data_pid,
          work_pid,
+         representation_pid,
          references
        </str>
 
